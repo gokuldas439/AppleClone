@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.nav{
+    
+    padding-top: 15px;
+    height: 44px;
+    background-color: #2d2d31;
+    display: flex;
+     justify-content: space-around;
+     position: fixed ;
+     z-index: 1;
+     width: 100%;
+     
+
+    
+}
+.logo{ 
+    margin-top: -18px;
+   opacity: 0.7;
+  
+}
+.logo:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.2s;
+}
+.navhead{
+    
+    font-size: 13px;
+    padding-top: 3px;
+    font-weight: lighter;
+   opacity: 0.7;
+    font-family: 'Courier New', Courier, monospace;
+    color:#f5f5f7;
+    list-style: none;
+    margin: 0 -1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+   
+
+    /* background-color: rgb(104, 104, 103);  */
+}
+.store1:hover{
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+}
+.store1{
+    margin-top: -2px;
+    
+    /* background-color: gold; */
+}
+.search{
+    margin-top: -16px; 
+    cursor: pointer;
+    /* width: 100%; */
+    /* width: 60px; */
+    /* background-color: aqua; */
+    /* margin-left: -150px; */
+}
+
+.shop{
+    margin-top: -17px;
+    cursor: pointer;
+}
+.headpart{
+   
+   padding-top: 45px;
+    justify-content: center;
+    display: flex;
+    background-color: #f5f5f7;
+    height: 115px;
+    position: relative;
+    
+}
+.uniceflogo{
+    padding-top: 72px;
+    margin-left: 10px;
+    width: 122px;
+    height: 32px;
+    background-size: 122px 32px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/aq/images/logos/unicef-relief-fund/unicef_logo_dark__ejvlglygb3ee_large.png);
+    background-position: center;
+  
+    /* background-color: #2d2d31; */
+}
+.unicef{
+    
+    padding-top: 27px;
+    padding-left: 15px;
+    text-decoration: none;
+    color:#06c;
+    /* background-color: aqua; */
+    
+}
+.unicef:hover{
+    text-decoration: underline;
+}
+.mac{
+   
+    height:558px;
+}
+.macimg{
+    margin-top: -36px;
+    width:100%;
+    height: 580px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+.macbook{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: -370px;
+    margin-left: 240px;
+    cursor: pointer;
+
+}
+.learnmore{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+   cursor: pointer;
+    gap: 26px;
+    position: relative;
+    top: -370px;
+    margin-left: 290px;
+    font-size: 21px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+.learnlist{
+    /* font-size: 18px; */
+    font-weight: 100;
+    text-decoration: none;
+    color: #0066cc;
+}
+.learnlist:hover{
+    text-decoration: underline;
+}
+.iwatch{
+   
+    height: 595px;
+    cursor: pointer;
+}
+.iwatchpic{
+    width:100%;
+    height: 580px;
+    object-fit: cover;
+    /* position: relative; */
+    top: -175px;
+}
+.iwatchtext{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: -560px;
+    margin-left: 490px;
+}
+.learnmore2{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -535px;
+    margin-left: 530px;
+    font-size: 21px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+.supercharge{
+    height: 616px;
+    
+}
+.macoffer{
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+    
+}
+.shoplist1{
+    position: relative;
+    list-style: none;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: -435px;
+    margin-left: 583px;
+    opacity: 0.2;
+    /* background-color: white; */
+}
+.shoplist{
+    font-size: 20px;
+    text-decoration: none;
+}
+.shoplist:hover{
+    text-decoration: underline;
+}
+.iphone{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(42vw,160px);
+    grid-gap: 12px;
+    padding: 0px 12px;
+}
+.iphonegrid{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.iphonetxtgrid1{
+    position: relative;
+    top: -530px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.iphonetxtgrid2{
+    position: relative;
+    top: -527px;
+    margin-left: 162px;
+    cursor: pointer;
+}
+.iphonetxtgrid3{
+    position: relative;
+    top: -535px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+.iphonetxtgrid4{
+    position: relative;
+    top: -545px;
+    margin-left: 181px;
+    cursor: pointer;
+}
+.iphonetxtgrid5{
+    position: relative;
+    top: -530px;
+    margin-left: 175px;
+    cursor: pointer;
+}
+.iphonetxtgrid6{
+    position: relative;
+    top: -503px;
+    margin-left: 213px;
+    cursor: pointer;
+}
+
+.learnmore3{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -535px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.learnmore4{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -530px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.learnmore5{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -540px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.learnmore6{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -545px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.learnmore7{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -535px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.learnmore8{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    position: relative;
+    top: -505px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.iphonestream{
+    cursor: pointer;
+    width: 100%;
+}
+.paragraph{
+    padding: 20px 185px;
+    background-color: #f5f5f7;
+}
+.paratext{
+    font-size: 13px;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+}
+hr{
+   margin-top: 10px;
+}
+.support{
+    text-decoration: none;
+    color: #6e6e73;
+}
+.support:hover{
+    text-decoration: underline;
+}
+.footdivlist{
+    display: flex;
+    padding: 0px 145px;
+    gap: 30px;
+    background-color: #f5f5f7;
+    
+}
+.finallist{
+    list-style: none;
+    font-size: 13px;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.finallist li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.finallist li:first-child{
+    color: #5f5f63;
+    font-weight: 600;
+}
+.innerlist{
+    list-style: none;
+    font-size: 13px;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    gap: 12px;
+    margin-left: -40px;
+
+}
+.beforecopyright{
+    padding: 35px 185px;
+    background-color: #f5f5f7;
+}
+.more{
+    font-size: 13px;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    
+}
+.findapple{
+    text-decoration: none;
+    color: #0066cc;
+}
+.lastline{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 185px;
+    margin-top: -30px;
+    background-color: #f5f5f7;
+}
+.lastul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 13px;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    
+}
+.copyrighttxt{
+    font-size: 13px;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+}
+.lastul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+   
